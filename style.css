@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,8 +7,8 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(#0a2342 0%, #041C32 33.33%, #021526 66.67%, #01080E 100%);
   background-image: url("code.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -38,23 +40,22 @@ body::before {
   min-height: 60%;
   padding: 2rem;
   border-radius: 20px;
-  border: 1px solid #1875E8;
+  border: 1px solid #0D3B66;
   box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
   background-image: url("Ruido.png");
   background-size: 100% 100%;
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
   font-size: 60px;
   margin-bottom: 1rem;
-  color: #000;
+  color: #f0f4f8;
 }
 
 h2 {
   font-size: 30px;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #cfd8dc;
 }
 
 p, label {
@@ -88,7 +89,7 @@ button {
   padding: 12px 24px;
   font-size: 16px;
   font-weight: bold;
-  background-color: #3498db;
+  background-color: #0a2342;
   color: white;
   border: none;
   border-radius: 10px;
@@ -97,7 +98,7 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #021c3d;
 }
 
 button:disabled {
@@ -121,4 +122,3 @@ button:disabled {
   white-space: pre-wrap;
   font-size: 16px;
 }
-
